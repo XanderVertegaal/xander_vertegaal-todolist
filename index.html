@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" type="image/jpg" href="favicon.ico"/>
+    <script defer src="api-client.js"></script>
+    <script defer src="script.js"></script>
+    <title>To-do-list</title>
+</head>
+<body>
+    <header>
+        <h1>ToDo List</h1>
+        <div class="input-wrapper">
+            <input type="text" name="input-text" id="text-input" value="" placeholder="New Task">
+            <input type="button" id="btnAdd" value="Add Task" disabled="true" maxlength="50">
+        </div>
+    </header>
+    <main>
+        <ul id="main-list" class="main-list">
+        </ul>
+    </main>
+
+</body>
+</html>
